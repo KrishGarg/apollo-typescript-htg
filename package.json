@@ -1,0 +1,26 @@
+{
+  "name": "typescript-apollo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "generate": "ts-node src/schema.ts"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/jsonwebtoken": "^8.5.6",
+    "prisma": "^3.7.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.7.0",
+    "apollo-server": "^3.6.1",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^16.2.0",
+    "graphql-scalars": "^1.14.1",
+    "jsonwebtoken": "^8.5.1",
+    "nexus": "^1.2.0-next.17"
+  }
+}
